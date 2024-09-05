@@ -1,6 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
 
-// Replace with your actual MySQL database credentials
 const sequelize = new Sequelize('appointment_db', 'root', 'muskan!!!@00$', {
   host: 'localhost',     // or the IP address of your MySQL server
   dialect: 'mysql',
