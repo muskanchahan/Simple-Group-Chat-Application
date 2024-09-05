@@ -38,7 +38,6 @@ app.post('/BookingAppointments', async (req, res) => {
 
 
 
-// DELETE request to remove an appointment
 app.delete('/BookingAppointments/:id', async (req, res) => {
   try {
     const appointmentId = req.params.id;
