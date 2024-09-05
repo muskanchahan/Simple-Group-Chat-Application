@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Appointment App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id='h1'>Booking Appointment App</h1>
+    <h3>Total Appointments</h3>
+    <p id="total-appointments-count">0</p>
+
+    <form id="form">
+        <label for='username'>Username:</label>
+        <br>
+        <input id='username' type='text' required/>
+        <br>
+        <label for='email'>Email:</label>
+        <br>
+        <input id='email' type='email' required/>
+        <br>
+        <label for='mobileNumber'>Mobile Number:</label>
+        <input type="number" id="mobileNumber" required>
+        <br>
+        <button id='button' type='submit'>Add to List</button>
+    </form>
+    
+    <h2>List Of Appointments</h2>
+    <ul id='ul'></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.1/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
